@@ -24,7 +24,7 @@ int main() {
     cout << "4) 12 months, 3% interest\n";
     cout << "> ";
 
-while (choice < 1 || choice > 4) {
+    while (choice < 1 || choice > 4) {
         cout << "1 to 4 only please: ";
         cin >> choice;
     }
@@ -37,7 +37,7 @@ while (choice < 1 || choice > 4) {
     double total = amount + interest;
     double monthly = total / months;
 
-cout << fixed << setprecision(2);
+    cout << fixed << setprecision(2);
 
     cout << "\n----------------------------\n";
     cout << "Amount:        RM " << amount << "\n";
