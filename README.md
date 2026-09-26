@@ -17,3 +17,6 @@ int main() {
         cout << "that's not a real amount, try again later\n";
         return 1;
     }
+cout << "\ndone.\n";
+    return 0;
+}
