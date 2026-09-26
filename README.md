@@ -36,3 +36,14 @@ while (choice < 1 || choice > 4) {
     double interest = amount * rate / 100;
     double total = amount + interest;
     double monthly = total / months;
+
+cout << fixed << setprecision(2);
+
+    cout << "\n----------------------------\n";
+    cout << "Amount:        RM " << amount << "\n";
+    cout << "Term:          " << months << " months\n";
+    cout << "Interest rate: " << rate << "%\n";
+    cout << "Interest paid: RM " << interest << "\n";
+    cout << "Total to pay:  RM " << total << "\n";
+    cout << "Per month:     RM " << monthly << "\n";
+    cout << "----------------------------\n";
