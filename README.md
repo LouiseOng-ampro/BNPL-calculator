@@ -17,3 +17,11 @@ int main() {
         cout << "that's not a real amount, try again later\n";
         return 1;
     }
+cout << "\nPick a plan:\n";
+cout << "1) 3 months, no interest\n";
+cout << "2) 6 months, 1.5% interest\n";
+cout << "3) 9 months, 2% interest\n";
+cout << "4) 12 months, 3% interest\n";
+cout << "> ";
+int choice;
+cin >> choice;
