@@ -48,6 +48,15 @@ cout << fixed << setprecision(2);
     cout << "Per month:     RM " << monthly << "\n";
     cout << "----------------------------\n";
 
+    cout << "\nMonth by month:\n";
+    double remaining = total;
+    for (int m = 1; m <= months; m++) {
+        remaining -= monthly;
+        if (m == months) remaining = 0;
+        cout << "  Month " << m << ": pay RM " << monthly
+             << "   (balance RM " << remaining << ")\n";
+    }
+
 
 
 
