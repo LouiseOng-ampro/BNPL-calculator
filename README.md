@@ -47,3 +47,16 @@ cout << fixed << setprecision(2);
     cout << "Total to pay:  RM " << total << "\n";
     cout << "Per month:     RM " << monthly << "\n";
     cout << "----------------------------\n";
+
+
+
+
+
+
+
+
+
+
+cout << "\ndone.\n";
+return 0;
+}
