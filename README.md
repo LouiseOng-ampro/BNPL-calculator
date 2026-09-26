@@ -18,7 +18,6 @@ int main() {
         return 1;
     }
 
-=======
     cout << "\nPick a plan:\n";
     cout << "1) 3 months, no interest\n";
     cout << "2) 6 months, 1.5% interest\n";
@@ -26,4 +25,15 @@ int main() {
     cout << "4) 12 months, 3% interest\n";
     cout << "> ";
 
->>>>>>> f1a7b421e32b30b3f8bf28fa9fc39a7b6eb63b29
+while (choice < 1 || choice > 4) {
+        cout << "1 to 4 only please: ";
+        cin >> choice;
+    }
+
+    int idx = choice - 1;
+    int months = terms[idx];
+    double rate = rates[idx];
+
+    double interest = amount * rate / 100;
+    double total = amount + interest;
+    double monthly = total / months;
