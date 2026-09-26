@@ -57,15 +57,6 @@ cout << fixed << setprecision(2);
              << "   (balance RM " << remaining << ")\n";
     }
 
-
-
-
-
-
-
-
-
-
 cout << "\ndone.\n";
 return 0;
 }
