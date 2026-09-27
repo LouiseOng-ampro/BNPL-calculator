@@ -1,4 +1,8 @@
 # BNPL-calculator
+#include <iostream>
+#include <iomanip>
+#include <vector>
+#include <string>
 using namespace std;
 
 
@@ -60,4 +64,4 @@ using namespace std;
     cout << "\ndone.\n";
     return 0;
     }
-louise is our group leader
+
